@@ -1,0 +1,39 @@
+  .table {
+    width: 100%;
+    &_thead_tr {
+      font-size: 14px;
+      border-top: 1px solid #e6e6e6;
+      th {
+        // width: 8.333333333333334%;
+        font-size: 14px;
+        line-height: 46px;
+        background: #f9f9f9;
+        color: #898989;
+      }
+    }
+    &_tbody {
+      tr {
+        font-size: 12px;
+        height: 44px;
+      }
+      .total {
+        color: #333333;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+    // 文本
+    .text-right {
+      text-align: right;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .text-center {
+      text-align: center;
+    }
+    // padding 间距
+    .pd-r {
+      padding-right: 4%;
+    }
+  }

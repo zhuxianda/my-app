@@ -1,0 +1,153 @@
+.table {
+  width: 100%; }
+  .table_thead_tr {
+    font-size: 14px;
+    border-top: 1px solid #e6e6e6; }
+    .table_thead_tr th {
+      font-size: 14px;
+      line-height: 46px;
+      background: #f9f9f9;
+      color: #898989; }
+  .table_tbody tr {
+    font-size: 12px;
+    height: 44px; }
+  .table_tbody .total {
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold; }
+  .table .text-right {
+    text-align: right; }
+  .table .text-left {
+    text-align: left; }
+  .table .text-center {
+    text-align: center; }
+  .table .pd-r {
+    padding-right: 4%; }
+
+.ad_list_container .ad_list_wrapper .table {
+  background: #fff; }
+
+.ad_list_container .ad_list_wrapper .table_thead_tr {
+  border-bottom: 1px solid #e6e6e6; }
+  .ad_list_container .ad_list_wrapper .table_thead_tr th:first-child {
+    padding-left: 18px; }
+
+.ad_list_container .ad_list_wrapper .table_tbody tr {
+  height: 56px;
+  border-bottom: 1px solid #eeeeee;
+  cursor: pointer; }
+  .ad_list_container .ad_list_wrapper .table_tbody tr td:first-child {
+    padding-left: 18px; }
+
+.ad_list_container .ad_list_wrapper .checkbox {
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 12px;
+  margin-bottom: 2px;
+  margin-top: -1px; }
+
+.ad_list_container .ad_list_wrapper .game_info .checkbox {
+  float: left;
+  margin-top: 14px; }
+
+.ad_list_container .ad_list_wrapper .game_info .desc {
+  float: left; }
+
+.ad_list_container .ad_list_wrapper .game_info img {
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-top: 5px;
+  margin-right: 8px; }
+
+.ad_list_container .ad_list_wrapper .game_info span {
+  float: left;
+  width: 95px;
+  height: 44px;
+  line-height: 44px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.ad_list_container .ad_detail {
+  background: #f9f9f9; }
+  .ad_list_container .ad_detail td {
+    padding: 16px 19px 20px 18px; }
+
+.ad_list_container .ad_detail {
+  background: #f9f9f9; }
+
+.ad_list_container .single_adver_datail .tools_bar {
+  margin-bottom: 16px; }
+  .ad_list_container .single_adver_datail .tools_bar .name {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 15px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold; }
+  .ad_list_container .single_adver_datail .tools_bar .operate_bar {
+    float: left;
+    width: 376px;
+    margin: 0 10px 0 0; }
+    .ad_list_container .single_adver_datail .tools_bar .operate_bar .operate_bar_btn {
+      float: left; }
+      .ad_list_container .single_adver_datail .tools_bar .operate_bar .operate_bar_btn .btn {
+        float: left;
+        width: 66px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #666666;
+        font-size: 14px;
+        border-top: 1px solid #e3e3e3;
+        border-bottom: 1px solid #e3e3e3;
+        border-left: 1px solid #e3e3e3; }
+        .ad_list_container .single_adver_datail .tools_bar .operate_bar .operate_bar_btn .btn:first-child {
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px; }
+        .ad_list_container .single_adver_datail .tools_bar .operate_bar .operate_bar_btn .btn:last-child {
+          border-right: 1px solid #e3e3e3;
+          border-top-right-radius: 3px;
+          border-bottom-right-radius: 3px; }
+      .ad_list_container .single_adver_datail .tools_bar .operate_bar .operate_bar_btn .btn:hover {
+        color: #333333;
+        font-weight: bold; }
+
+.ad_list_container .single_adver_datail .detail_desc {
+  background: #fff; }
+  .ad_list_container .single_adver_datail .detail_desc .left_detail {
+    float: left;
+    width: 376px;
+    padding: 17px 18px 13px 0;
+    border-right: 10px solid #f9f9f9; }
+    .ad_list_container .single_adver_datail .detail_desc .left_detail .content {
+      margin-bottom: 12px; }
+      .ad_list_container .single_adver_datail .detail_desc .left_detail .content .tag_name {
+        float: left;
+        width: 74px;
+        margin-right: 9px;
+        color: #333333;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: right; }
+      .ad_list_container .single_adver_datail .detail_desc .left_detail .content .right_content {
+        float: left;
+        width: 260px;
+        overflow: hidden; }
+        .ad_list_container .single_adver_datail .detail_desc .left_detail .content .right_content .time {
+          color: #666666;
+          font-size: 12px; }
+        .ad_list_container .single_adver_datail .detail_desc .left_detail .content .right_content .title {
+          color: #333333;
+          font-weight: bold;
+          font-size: 12px; }
+        .ad_list_container .single_adver_datail .detail_desc .left_detail .content .right_content .keywords {
+          color: #666666; }
+    .ad_list_container .single_adver_datail .detail_desc .left_detail .time_list {
+      color: #999999; }
+      .ad_list_container .single_adver_datail .detail_desc .left_detail .time_list .weekday_tag {
+        padding-right: 7px; }
+  .ad_list_container .single_adver_datail .detail_desc .right_detail {
+    float: left; }

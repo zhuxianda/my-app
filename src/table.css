@@ -1,0 +1,25 @@
+.table {
+  width: 100%; }
+  .table_thead_tr {
+    font-size: 14px;
+    border-top: 1px solid #e6e6e6; }
+    .table_thead_tr th {
+      font-size: 14px;
+      line-height: 46px;
+      background: #f9f9f9;
+      color: #898989; }
+  .table_tbody tr {
+    font-size: 12px;
+    height: 44px; }
+  .table_tbody .total {
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold; }
+  .table .text-right {
+    text-align: right; }
+  .table .text-left {
+    text-align: left; }
+  .table .text-center {
+    text-align: center; }
+  .table .pd-r {
+    padding-right: 4%; }

@@ -1,0 +1,173 @@
+@import './table.scss';
+
+.ad_list_container {
+  .ad_list_wrapper {
+    .table {
+      background: #fff;
+    }
+    .table_thead_tr {
+      border-bottom: 1px solid #e6e6e6;
+      th:first-child {
+        padding-left: 18px;
+      }
+    }
+    .table_tbody {
+      tr {
+        height: 56px;
+        border-bottom: 1px solid #eeeeee;
+        cursor: pointer;
+        td:first-child {
+          padding-left: 18px;
+        }
+      }
+    }
+    .checkbox {
+      height: 15px;
+      vertical-align: middle;
+      margin-right: 12px;
+      margin-bottom: 2px;
+      margin-top: -1px;
+    }
+    // 游戏信息
+    .game_info {
+      .checkbox {
+        float: left;
+        margin-top: 14px;
+      }
+      .desc {
+        float: left;
+      }
+      img {
+        float: left;
+        width: 36px;
+        height: 36px;
+        margin-top: 5px;
+        margin-right: 8px;
+      }
+      span {
+        float: left;
+        width: 95px;
+        height: 44px;
+        line-height: 44px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  // 列表广告详情
+  .ad_detail {
+    background: #f9f9f9;
+    td {
+      padding: 16px 19px 20px 18px;
+    }
+  }
+
+  .ad_detail {
+    background: #f9f9f9;
+  }
+  // 单条记录列表
+  .single_adver_datail {
+    .tools_bar {
+      margin-bottom: 16px;
+      .name {
+        float: left;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 15px;
+        color: #666666;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .operate_bar {
+        float: left;
+        width: 376px;
+        margin: 0 10px 0 0;
+        .operate_bar_btn {
+          float: left;
+          .btn {
+            float: left;
+            width: 66px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #666666;
+            font-size: 14px;
+            border-top: 1px solid #e3e3e3;
+            border-bottom: 1px solid #e3e3e3;
+            border-left: 1px solid #e3e3e3;
+            &:first-child {
+              border-top-left-radius: 3px;
+              border-bottom-left-radius: 3px;
+            }
+            &:last-child {
+              border-right: 1px solid #e3e3e3;
+              border-top-right-radius: 3px;
+              border-bottom-right-radius: 3px;
+            }
+          }
+          .btn:hover {
+            color: #333333;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .detail_desc {
+      background: #fff;
+      .left_detail {
+        float: left;
+        width: 376px;
+        padding: 17px 18px 13px 0;
+        border-right: 10px solid #f9f9f9;
+        .content {
+          margin-bottom: 12px;
+          .tag_name {
+            float: left;
+            width: 74px;
+            margin-right: 9px;
+            color: #333333;
+            font-weight: bold;
+            font-size: 12px;
+            text-align: right;
+          }
+          .right_content {
+            float: left;
+            width: 260px;
+            overflow: hidden;
+            .time {
+              color: #666666;
+              font-size: 12px;
+            }
+            .title {
+              color: #333333;
+              font-weight: bold;
+              font-size: 12px;
+            }
+            .keywords {
+              color: #666666;
+            }
+          }
+        }
+        // 时间序列
+        .time_list {
+          color: #999999;
+          .weekday_tag {
+            // float: left;
+            padding-right: 7px;
+            // width: 34px;
+          }
+          .times_days {
+            // float: left;
+            // width: 240px;
+          }
+        }
+      }
+      .right_detail {
+        float: left;
+      }
+    }
+  }
+}
